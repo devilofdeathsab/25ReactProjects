@@ -1,0 +1,18 @@
+body{
+    background-color:black;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .active {
+    color: #fff700;
+  }
+  
+  .inactive {
+    color: gray;
+  }
+  
