@@ -5,6 +5,7 @@ import RandomColors from './Components/RandomColors'
 import StarRating from './Components/StarRating'
 import ImageSlider from './Components/Image-Slider'
 import LoadMore from './Components/loadMore'
+import TreeView from './Components/Tree-view'
 function App() {
 
   return (
@@ -19,9 +20,11 @@ function App() {
  */}
 {/* <ImageSlider url="https://picsum.photos/v2/list" page={"1"} limit={"10"}/>
    
-    */}
-  <LoadMore/>
+  //   */}
   
+  {/* // <LoadMore/>
+   */}
+<TreeView/>
     </>
   
 )
